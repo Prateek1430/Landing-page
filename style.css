@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body,html{
+    overflow-x: hidden;
+} */
+header{
+   /* width: 1400px; */
+   height: 100vh;
+   background-color: white;
+   background-position: center;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+nav img{
+    width: 350px;
+    height: 80px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+ul li a:hover{
+    color: purple ;
+}
+.section1{
+    margin-top: 5px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 85vh;  
+    position: relative;
+}
+.div1{
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    top: 250px;
+    
+}
+.div1 h1{
+    color: white;
+    font-size: 60px;
+}
+.section1 button{
+    width: 150px;
+    height: 40px;
+    background: rgb(81, 130, 236);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+} 
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.div2 img{
+    width: 700px;
+    height: 600px;
+}
+.div2 .content1 h1{
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.div2 .content1 p{
+    font-weight: lighter;
+    font-size: large;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.div2 .content1 button{
+    width: 150px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.content2{
+    height: 700px;
+    background-color: rgb(237, 230, 230);
+    text-align: center;
+    padding: 20px;
+}
+.main{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    padding-right: 300px;
+    column-gap: 70px;
+}
+.content3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: 5px 11px 3px rgba(0, 0, 0,0.3);
+}
+.content3 img{
+    width: 80px;
+}
+.podcast h1{
+    text-align: center;
+    font-size: 75px;
+    padding-top: 30px;
+}
+.card{
+    /* width: 420px; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.podcast1 img{
+    width: 400px;
+}
+.podcast1{
+    border: 10px solid white;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0,0.3);
+}
+.podcast1 p{
+    padding-top: 30px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.podcast button{
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.phone h1{
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.phone p{
+    font-weight: lighter;
+    font-size: large;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 800px;
+}
+.ratings button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.ratings h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.ratingcard-container{
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.ratingcard{
+    padding: 20px;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0,0.3);
+}
+.ratingcard p{
+    font-size: 14px;
+    color: #726e6e;
+}
+.users{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.users img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.users h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.users h6{
+    color: skyblue;
+    font-weight: 600;
+}
+.join{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(rgba(11,182,255,0.527),rgba(43,84,235,0.5)),url(https://media.istockphoto.com/id/1291318636/photo/put-more-in-get-more-out.jpg?s=612x612&w=0&k=20&c=KRvn1x6r9x9GmYMLpW6AVZzkvOA0bmn14fKle-O6CVc=);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.join h2{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.join button{
+    margin: 30px 0;
+    padding: 15px 30px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+footer{
+    padding: 40px 80px;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+footer h3{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 30px;
+}
+footer p{
+    color: #d0cccc;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.footer-links a{
+    color: yellow;
+    background: #222;
+    margin: 15px 0;
+}
+.icons2{
+    margin: 15px 0;
+}
+.footer-links2 a{
+    text-decoration: none;
+    color: #d0cccc;
+    display: block;
+    line-height: 30px;
+}
